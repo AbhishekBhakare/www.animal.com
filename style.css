@@ -1,0 +1,91 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    background-color: yellowgreen; text-align: center;
+}
+    
+.navbar{
+    background-color: yellowgreen;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border: 10px solid white;
+    
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+   list-style: none;
+  
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+@media all and (max-width: 700px;){
+    .navbar ul{text-align: center;
+    flex-direction: column;}
+}
+
+
+.main-content{
+    background-color: pink;
+}
+/* .one{background-color: pink;   
+ } */
+ .one img{
+    height: 300px;
+    width: 300px;
+    margin: 12px 3px 8px 11.5px;
+ }
+/* .two{
+background-color: pink;
+} */
+.two img{
+    height: 300px;
+    width: 300px;
+    margin: 12px 3px 8px 11.5px;
+ }
+/* .three{
+    background-color: pink;
+} */
+
+.three img{
+    height: 300px;
+    width: 300px;
+    margin: 12px 3px 8px 11.5px;
+ }
+ 
+ .four img{
+    height: 300px;
+    width: 300px;
+    margin: 12px 3px 8px 11.5px;
+ }
+ .Five img{
+    height: 300px;
+    width: 300px;
+    margin: 12px 3px 8px 11.5px;
+ }
+ .Six img{
+    height: 300px;
+    width: 300px;
+    margin: 12px 3px 8px 11.5px;
+ }
+footer{
+    background-color: yellowgreen;
+    font-size: 30px;
+    border: 5px solid white;
+}
