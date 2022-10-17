@@ -15,7 +15,8 @@ header h1{
     
 .navbar{
     background-color: yellowgreen;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     /* flex-wrap: wrap; */
     border: 10px solid white;
     
@@ -35,10 +36,18 @@ header h1{
     color: black;
     font-size: 30px;
 }
-@media all and (max-width: 700px;){
-    .navbar ul{text-align: center;
-    flex-direction: column;}
+@media all and (max-width: 700px){
+    .navbar ul{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+   .navbar ul li a{
+        font-size: 50px;
+        color: white;
+    }
 }
+
 
 
 .main-content{
